@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+
+        .left-10{margin-left: 10px}
          #pop{
             position: absolute;
             top: 50%;
@@ -20,42 +22,56 @@
         .logo-popup{
             position:absolute;
             left: 100px;
-            top: 120px;
-            width: 300px;
+            top: 110px;
+            width: 330px;
         }
         .close-popup{
             float:right;
             top:0px;
             width: 50px;
+            cursor: pointer;
         }
         .text-popup{
             position:absolute;
-            top:230px;
+            top:260px;
             left:100px;
             font-size: 18px;
             color:white;
         }
         .text-popup p{
-        width: 90%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
         .arco-laranja{
             position: absolute;
             top: 0;
             left: 0;
-            width: 100px;
+            width: 140px;
         }
+
+        .img-10anos{
+            position:absolute;
+            left: 100px;
+            bottom: 30px;
+            width: 230px;
+        }
+        .img-texto{
+            position:absolute;
+            left: 320px;
+            bottom: 25px;
+            width: 350px;
+        }
+        
         .arco-azul{
             position:absolute;
             right: 0;
-            bottom: 50px;
-            width: 100px;
+            bottom: 20px;
+            width: 150px;
         }
 
 @media only screen and (max-width: 600px) {
     .logo-popup{
             position:absolute;
-            left: 20px;
+            left: 15px;
             top: 100px;
             width: 250px;
         }
@@ -66,26 +82,40 @@
         }
         .text-popup{
             position:absolute;
-            top:200px;
+            top:230px;
             left:20px;
             font-size: 14px;
             color:white;
         }
         .text-popup p{
-        width: 90%;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: Roboto, 'Open Sans', sans-serif;
     }
+        
         .arco-laranja{
             position: absolute;
             top: 0;
             left: 0;
-            width: 50px;
+            width: 90px;
         }
+
+        .img-10anos{
+            position:absolute;
+            left: 100px;
+            bottom: 100px;
+            width: 150px;
+        }
+        .img-texto{
+            position:absolute;
+            left: 30px;
+            bottom: 55px;
+            width: 290px;
+        }
+
         .arco-azul{
             position:absolute;
             right: 0;
             bottom: 50px;
-            width: 100px;
+            width: 90px;
         }
 }
     </style>
@@ -98,12 +128,14 @@
         <img class="logo-popup" src="logo.png">
         <div class="text-popup">
             <p>COM MAIS</p>
-            <p>+  Visão e propósito alinhados com a nossa cultura</p>
-            <p>+  Estrutura com novo modelo de trabalhar ágil</p>
-            <p>+  Eficiência operacional na transformação digital</p>
-            <p>+  Experiência positiva entre pessoas, processos e tecnologia</p>
+            <p class="left-10">+  Visão e propósito alinhados com a nossa cultura</p>
+            <p class="left-10">+  Estrutura com novo modelo de trabalhar ágil</p>
+            <p class="left-10">+  Eficiência operacional na transformação digital</p>
+            <p class="left-10">+  Experiência positiva entre pessoas, processos e tecnologia</p>
         </div>
         <img src="arco-azul.png" class="arco-azul">
+        <img src="img-10anos.png" class="img-10anos">
+        <img src="img-texto.png" class="img-texto">
         
     </div>
                  
